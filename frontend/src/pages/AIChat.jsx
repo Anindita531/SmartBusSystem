@@ -52,7 +52,7 @@ export default function AIChat() {
     try {
       const token = localStorage.getItem('token')
       const res = await axios.post(
-        'http://localhost:5000/api/search/chat',
+        'https://smartbussystem.onrender.com/api/search/chat',
         { query, language: appLang }, // 'lang' na 'language'
         { headers: { Authorization: token? `Bearer ${token}` : '' } }
       )
