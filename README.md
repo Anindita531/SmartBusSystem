@@ -357,7 +357,7 @@ VITE_STRIPE_PUBLISHABLE_KEY=
 | POST | `/api/bookings` | Book Ticket |
 | GET | `/api/tickets` | Get Ticket |
 | POST | `/api/payment/create-intent` | Stripe Payment |
-| POST | `/api/chatbot` | AI Chatbot |
+| POST | `/api/ai-chat` | AI Chatbot |
 
 ---
 
