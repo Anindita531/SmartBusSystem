@@ -1,5 +1,5 @@
 import Booking from '../models/Booking.js'
-import User from '../models/user.js'
+import User from "../models/User.js";
 import Bus from '../models/Bus.js'
 import Review from '../models/Review.js'
 
