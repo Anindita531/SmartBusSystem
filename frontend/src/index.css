@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+body {
+  @apply bg-[#0B1120] text-white antialiased;
+  margin: 0;
+  font-family: 'Inter', system-ui, sans-serif;
+}
+
+@keyframes routeMove {
+ 0% { background-position: 0 0; }
+ 100% { background-position: 60px 0; }
+}
+
+/* Date input এর ক্যালেন্ডার আইকন সাদা করার জন্য */
+input[type="date"]::-webkit-calendar-picker-indicator {
+  filter: invert(1);
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+/* Translate button responsive position */
+@media (max-width: 768px) {
+  .translate-btn-wrapper {
+    right: 12px !important;
+    top: 70px !important;
+  }
+}
+
+/* Scrollbar hide for horizontal language list */
+.horizontal-scroll::-webkit-scrollbar { 
+  display: none; 
+}
+.horizontal-scroll { 
+  -ms-overflow-style: none; 
+  scrollbar-width: none; 
+}

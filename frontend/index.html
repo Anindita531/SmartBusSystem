@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Smart Bus</title>
+    <style>
+      /* Google Translate er sob branding hide */
+      .goog-te-banner-frame.skiptranslate,
+      .goog-te-gadget-icon,
+      .goog-logo-link,
+      .goog-te-gadget .goog-te-gadget-simple .goog-te-menu-value span,
+      .goog-te-gadget-simple {
+        display: none !important;
+      }
+
+      body {
+        top: 0px !important;
+        position: static !important;
+      }
+
+      .skiptranslate {
+        display: none !important;
+      }
+
+      /* Jodi Google ekta faka space rakhe setao sorabe */
+      iframe.goog-te-banner-frame {
+        display: none !important;
+        height: 0px !important;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
