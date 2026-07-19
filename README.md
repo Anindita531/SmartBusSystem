@@ -70,6 +70,7 @@ An integrated AI chatbot powered by **Groq LLM** and **MongoDB Atlas Vector Sear
 - QR Code Paperless Ticket
 - Stripe Payment Integration
 - Live Bus Tracking
+- Multilingual Support (Through The  Button )
 - Booking History
 - Waitlist Management
 - Ratings & Reviews
