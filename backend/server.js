@@ -42,7 +42,7 @@ const app = express()
 const httpServer = createServer(app)
 const io = new Server(httpServer, {
   cors: {
-    origin: 'https://smartbussystem-1.onrender.com/',
+    origin: 'https://smartbussystem-1.onrender.com',
     credentials: true
   }
 })
@@ -50,7 +50,7 @@ initSocket(io)
 
 // CORS
 app.use(cors({
-  origin: 'http://localhost:5173',
+  origin: 'https://smartbussystem-1.onrender.com',
   credentials: true,
   methods: ['GET', 'POST', 'PUT', 'PATCH', 'DELETE', 'OPTIONS'],
   allowedHeaders: ['Content-Type', 'Authorization']
